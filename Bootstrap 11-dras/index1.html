@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="_Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="main1.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <button type="button" class="bnt btn-success" data-toggle="modal" data-target="#myModal">
+                Open Modal
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="text-secondary">Edit</h5><span class="close" data-dismiss="modal">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <label for="Title" class="text-secondary">Title</label>
+                            <input type="text" id="Title" class="form-control" placeholder="Task Entinty"> <br>
+                            <label for="Open" class="text-secondary">Title</label>
+                            <input type="text" id="Open" class="form-control" placeholder="Open"> <br>
+                            <div class="from-group">
+                                <label  class="text-secondary">Content:</label>
+                                <textareya name="dist" id="dist" class="form-control" placeholder="3 Write a Task POJO wiht the following properties:"></textareya>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="_Bootstrap/js/jQuery.min.js"></script>
+<script src="_Bootstrap/js/src/popover.js"></script>
+<script src="_Bootstrap/js/bootstrap.js"></script>
+<script src="_Bootstrap/js/main.js"></script>
+</body>
+</html>
